@@ -1,3 +1,11 @@
+## This is a pair of functions to calculate
+##  and cache the inverse of a matrix
+##
+## Lexical scoping is used to retain (cache)
+##  the inverse of the matrix once it is 
+##  initially calculated. If the matrix does
+##  not change then the inverse can be retrieved
+##  without additional calculations
 
 ##
 ## This function creates a special matrix object
